@@ -24,7 +24,7 @@ This document provides a detailed guide on how to set up a self-hosted Minecraft
 
 4. This will start a survival minecraft server on the default port i.e `25565`.
 
-5. Test the setup by joining the server from Minecraft. Enter `<host-ip-address>:<port>` as the server address. ex. `192.168.13.100:25565`. You can join the server without entering the port for this instance as the server is running on the default port already. You can find your host ip address by running `ifconfig` on Linux and `ipconfig` on Windows.
+5. Test the setup by joining the server from Minecraft. Enter `<host-ip-address>:<port>` as the server address. ex. `192.168.13.100:25565`. You can join the server without entering the port for this instance as the server is running on the default port already. You can find your host ip address by running `ifconfig` on Linux and `ipconfig` on Windows. It is recommended to assign a static IP for your host computer. You can lookup online for a guide on how to assign a static IP address that is specific to your operating system and the router.
 
 ## Securing the server 🔐
 
