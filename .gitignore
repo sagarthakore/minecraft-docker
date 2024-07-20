@@ -1,0 +1,3 @@
+survival/*
+!survival/eula.txt
+!survival/server.properties
