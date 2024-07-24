@@ -9,7 +9,3 @@ services:
       - 25565:25565
     volumes:
       - ./survival:/minecraft
-    deploy:
-      resources:
-        limits:
-          memory: 4G

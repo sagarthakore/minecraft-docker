@@ -8,4 +8,4 @@ RUN chown -R minecraft:minecraft /server
 RUN chown -R minecraft:minecraft /minecraft
 USER minecraft
 WORKDIR /minecraft
-CMD ["java", "-Xms2G", "-Xmx4G", "-XX:+UseG1GC", "-jar", "/server/server.jar", "--nogui"]
+CMD ["java", "-Xms2G", "-Xmx6G", "-XX:+UseG1GC", "-jar", "/server/server.jar", "--nogui"]
