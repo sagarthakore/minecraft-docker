@@ -112,10 +112,10 @@ Here is a list of some tasks you can do such as starting, stopping and upgrading
    docker compose down
    ```
 
-4. Creating the container and starting the server -
+4. Rebuilding the container and starting the server -
    
    ```bash
-   docker compose up -d
+   docker compose up -d --build
    ```
 
 5. View last 10 lines of server logs -
@@ -139,7 +139,7 @@ The server in this guide at the time of writing uses minecraft version `1.20.4`.
 1. Use the [Spigot Build Tools](https://www.spigotmc.org/wiki/buildtools/) to build the `.jar` file of the version you wish to use. Follow the instructions in the link above to use the build tools too create the jar file for the version of your choice. Please note that upgrading the server might break some plugins, ensure the plugins are compatible with the new version or replace the plugins with the compatible ones.
 2. Stop the server and remove the container by running `docker compose down`.
 3. Replace the `server.jar` file in the `./build` directory with the new file. Make sure you rename the new file to `server.jar`.
-4. Start server by running `docker compose up -d`.
+4. Start server by running `docker compose up -d --build`.
 
 ## Have fun! 😀
 
